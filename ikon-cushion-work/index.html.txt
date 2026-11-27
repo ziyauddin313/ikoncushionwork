@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IKON Cushion Work</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fff8f0;
+}
+
+header{
+    background:linear-gradient(135deg,#ff6b35,#ff914d,#ffc857);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right,#f093fb,#f5576c);
+    color:white;
+}
+
+.hero h2{
+    font-size:2.5rem;
+}
+
+.hero p{
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#25D366;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.services{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.services h2{
+    color:#ff6b35;
+    margin-bottom:30px;
+}
+
+.service-box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#ff6b35;
+    margin-bottom:10px;
+}
+
+.contact{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contact a{
+    color:#ffc857;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    background:black;
+    color:white;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🛋️ IKON Cushion Work</h1>
+    <p>Professional Sofa & Cushion Services</p>
+</header>
+
+<section class="hero">
+    <h2>Comfort Meets Style</h2>
+    <p>High Quality Sofa Repair, Cushion Work & Upholstery Services</p>
+
+    <a class="btn" href="https://wa.me/918482971786">
+        WhatsApp Now
+    </a>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+
+        <div class="card">
+            <h3>🛋 Sofa Cushion Work</h3>
+            <p>Customized sofa cushion solutions with premium materials.</p>
+        </div>
+
+        <div class="card">
+            <h3>🪑 Chair Upholstery</h3>
+            <p>Modern chair upholstery and repair services.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏠 Interior Cushion Design</h3>
+            <p>Beautiful cushion designs for home and office interiors.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Repair & Renovation</h3>
+            <p>Old cushions restored with fresh foam and fabric.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>📞 Phone:</strong> 8482971786</p>
+
+    <br>
+
+    <p>
+        <a href="https://maps.app.goo.gl/xbqWfpQLwCsyKwdW9" target="_blank">
+            📍 View Location on Google Maps
+        </a>
+    </p>
+
+    <br>
+
+    <a class="btn" href="tel:8482971786">Call Now</a>
+</section>
+
+<footer>
+    © 2026 IKON Cushion Work | All Rights Reserved
+</footer>
+
+</body>
+</html>
